@@ -15,7 +15,6 @@ public class GuiPlayer extends Player
    {
       if (ready)
       {
-         System.out.println("Placing piece on " + this.nextRow + ", " + this.nextCol);
          ready = false;
          return board.placeTicTacToePiece(this.nextRow, this.nextCol, this.myPiece);
       }
